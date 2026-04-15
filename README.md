@@ -421,7 +421,7 @@ All automatically installed by `start.sh`:
 ## 🏗️ Project Structure
 
 ```
-StegoGuard_Pro/
+StegoGuard
 ├── start.sh                    # Self-contained launcher (no install required)
 ├── stegoguard_pro.py          # Main entry point
 ├── sanitize_for_publication.sh # Identity protection script
