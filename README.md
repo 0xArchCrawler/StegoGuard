@@ -1,6 +1,6 @@
 # 🚀 StegoGuard v2.7 - Professional Steganography Detection & Forensics
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/YOUR-USERNAME/StegoGuard)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/0xArchCrawler/StegoGuard)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 [![Version](https://img.shields.io/badge/version-2.7-green.svg)](VERSION)
@@ -158,7 +158,7 @@ StegoGuard provides **complete steganography detection** by analyzing images wit
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR-USERNAME/StegoGuard.git
+git clone https://github.com/0xArchCrawler/StegoGuard.git
 cd StegoGuard/StegoGuard_Pro
 
 # Install dependencies (automatic via start.sh)
@@ -580,7 +580,7 @@ This tool is provided for **legitimate security and educational purposes only**.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/StegoGuard.git
+git clone https://github.com/0xArchCrawler/StegoGuard.git
 cd StegoGuard/StegoGuard_Pro
 
 # Launch (auto-installs dependencies)
