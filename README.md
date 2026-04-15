@@ -307,9 +307,6 @@ Signed: StegoGuard v2.7 – Professional Forensics Platform
 - [INSTALL.md](INSTALL.md) - Installation guide
 - [CLI_FEATURES.md](CLI_FEATURES.md) - Advanced CLI usage
 - [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) - Feature overview
-- [CHANGELOG.md](CHANGELOG.md) - Version history
-- [PUBLICATION_GUIDE.md](PUBLICATION_GUIDE.md) - GitHub publication guide
-- [docs/](docs/) - Technical documentation (20+ files)
 
 ---
 
@@ -615,7 +612,6 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## 📞 Support
 
-- **Documentation:** Check the [docs/](docs/) directory
 - **Issues:** Report bugs or request features via GitHub Issues
 - **Security:** Report vulnerabilities privately (see [SECURITY.md](SECURITY.md))
 - **Community:** Join discussions in GitHub Discussions
