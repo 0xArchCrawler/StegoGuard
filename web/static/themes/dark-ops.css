@@ -1,0 +1,49 @@
+/* Dark Ops Theme - Professional SOC/SIEM Style */
+
+.theme-dark-ops {
+    --bg-primary: #0a0e1a;
+    --bg-secondary: #0f1419;
+    --card-bg: #151921;
+    --hover-bg: #1a1f2e;
+    --accent-bg: rgba(0, 188, 212, 0.1);
+
+    --text-primary: #e8eaed;
+    --text-secondary: #9aa0a6;
+
+    --primary-color: #00bcd4;
+    --secondary-color: #26c6da;
+    --accent-color: #00e5ff;
+
+    --border-color: #2d333d;
+
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+
+    --progress-bg: #1a2332;
+    --primary-color-alpha: rgba(0, 188, 212, 0.3);
+
+    background: linear-gradient(135deg, #0a0e1a 0%, #1a1f2e 100%);
+    color: var(--text-primary);
+}
+
+.theme-dark-ops .dashboard-header {
+    background: rgba(10, 14, 26, 0.95);
+    box-shadow: 0 2px 20px rgba(0, 188, 212, 0.1);
+}
+
+.theme-dark-ops .sidebar {
+    background: var(--bg-secondary);
+}
+
+.theme-dark-ops .main-content {
+    background: var(--bg-primary);
+}
+
+.theme-dark-ops .nav-item.active {
+    background: linear-gradient(90deg, rgba(0, 188, 212, 0.15), transparent);
+}
+
+.theme-dark-ops .intel-card {
+    background: linear-gradient(135deg, rgba(0, 188, 212, 0.05), rgba(38, 198, 218, 0.05));
+}

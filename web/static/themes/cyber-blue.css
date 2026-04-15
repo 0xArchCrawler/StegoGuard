@@ -1,0 +1,47 @@
+/* Cyber Blue Theme - IBM QRadar Inspired */
+
+.theme-cyber-blue {
+    --bg-primary: #0c111b;
+    --bg-secondary: #111827;
+    --card-bg: #1e2639;
+    --hover-bg: #293548;
+    --accent-bg: rgba(59, 130, 246, 0.1);
+
+    --text-primary: #f3f4f6;
+    --text-secondary: #9ca3af;
+
+    --primary-color: #3b82f6;
+    --secondary-color: #60a5fa;
+    --accent-color: #93c5fd;
+
+    --border-color: #374151;
+
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+
+    --progress-bg: #1f2937;
+    --primary-color-alpha: rgba(59, 130, 246, 0.3);
+
+    background: linear-gradient(135deg, #0c111b 0%, #1e2639 100%);
+    color: var(--text-primary);
+}
+
+.theme-cyber-blue .dashboard-header {
+    background: rgba(17, 24, 39, 0.95);
+    box-shadow: 0 2px 20px rgba(59, 130, 246, 0.15);
+}
+
+.theme-cyber-blue .sidebar {
+    background: var(--bg-secondary);
+    border-right-color: rgba(59, 130, 246, 0.2);
+}
+
+.theme-cyber-blue .intel-card {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(96, 165, 250, 0.05));
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.theme-cyber-blue .upload-zone:hover {
+    box-shadow: 0 8px 32px rgba(59, 130, 246, 0.2);
+}

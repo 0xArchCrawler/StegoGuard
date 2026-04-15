@@ -1,0 +1,293 @@
+/**
+ * StegoGuard Original Theme Colors
+ * Professional SOC/SIEM inspired color schemes
+ */
+
+/* ============================================================================
+   THEME 1: DARK OPS (Default) - SOC/SIEM Style
+   ============================================================================ */
+.theme-dark-ops {
+    --bg-primary: #0a0e27;
+    --bg-secondary: #131829;
+    --bg-tertiary: #1a1f3a;
+    --bg-card: #1e2439;
+
+    --text-primary: #e8eaf6;
+    --text-secondary: #9fa8da;
+    --text-muted: #5c6bc0;
+
+    --accent-primary: #00e5ff;
+    --accent-secondary: #00b8d4;
+    --accent-glow: rgba(0, 229, 255, 0.3);
+
+    --border-color: #283593;
+    --border-glow: rgba(0, 229, 255, 0.2);
+
+    --status-critical: #ff1744;
+    --status-high: #ff6e40;
+    --status-medium: #ffc107;
+    --status-low: #76ff03;
+    --status-minimal: #69f0ae;
+
+    --shadow-glow: 0 0 20px rgba(0, 229, 255, 0.15);
+}
+
+/* ============================================================================
+   THEME 2: CYBER BLUE - IBM QRadar Inspired
+   ============================================================================ */
+.theme-cyber-blue {
+    --bg-primary: #001529;
+    --bg-secondary: #002140;
+    --bg-tertiary: #003a6b;
+    --bg-card: #00294d;
+
+    --text-primary: #ffffff;
+    --text-secondary: #8bb8e8;
+    --text-muted: #5895d5;
+
+    --accent-primary: #1890ff;
+    --accent-secondary: #096dd9;
+    --accent-glow: rgba(24, 144, 255, 0.3);
+
+    --border-color: #0050b3;
+    --border-glow: rgba(24, 144, 255, 0.2);
+
+    --status-critical: #f5222d;
+    --status-high: #fa541c;
+    --status-medium: #faad14;
+    --status-low: #52c41a;
+    --status-minimal: #13c2c2;
+
+    --shadow-glow: 0 0 20px rgba(24, 144, 255, 0.15);
+}
+
+/* ============================================================================
+   THEME 3: THREAT RED - Incident Response
+   ============================================================================ */
+.theme-threat-red {
+    --bg-primary: #1a0000;
+    --bg-secondary: #2d0000;
+    --bg-tertiary: #4a0000;
+    --bg-card: #330000;
+
+    --text-primary: #ffebee;
+    --text-secondary: #ff8a80;
+    --text-muted: #ef5350;
+
+    --accent-primary: #ff1744;
+    --accent-secondary: #d50000;
+    --accent-glow: rgba(255, 23, 68, 0.3);
+
+    --border-color: #b71c1c;
+    --border-glow: rgba(255, 23, 68, 0.2);
+
+    --status-critical: #ff1744;
+    --status-high: #ff5252;
+    --status-medium: #ff6e40;
+    --status-low: #ffc107;
+    --status-minimal: #76ff03;
+
+    --shadow-glow: 0 0 20px rgba(255, 23, 68, 0.15);
+}
+
+/* ============================================================================
+   THEME 4: STEALTH GREEN - Military/Tactical
+   ============================================================================ */
+.theme-stealth-green {
+    --bg-primary: #0d1f12;
+    --bg-secondary: #162e1b;
+    --bg-tertiary: #1e3d25;
+    --bg-card: #1a3320;
+
+    --text-primary: #e8f5e9;
+    --text-secondary: #a5d6a7;
+    --text-muted: #66bb6a;
+
+    --accent-primary: #00e676;
+    --accent-secondary: #00c853;
+    --accent-glow: rgba(0, 230, 118, 0.3);
+
+    --border-color: #2e7d32;
+    --border-glow: rgba(0, 230, 118, 0.2);
+
+    --status-critical: #d32f2f;
+    --status-high: #f44336;
+    --status-medium: #ff9800;
+    --status-low: #00e676;
+    --status-minimal: #69f0ae;
+
+    --shadow-glow: 0 0 20px rgba(0, 230, 118, 0.15);
+}
+
+/* ============================================================================
+   THEME 5: QUANTUM PURPLE - Advanced Threat Analysis
+   ============================================================================ */
+.theme-quantum-purple {
+    --bg-primary: #1a0033;
+    --bg-secondary: #2d004d;
+    --bg-tertiary: #4a0080;
+    --bg-card: #33005c;
+
+    --text-primary: #f3e5f5;
+    --text-secondary: #ce93d8;
+    --text-muted: #ab47bc;
+
+    --accent-primary: #d500f9;
+    --accent-secondary: #aa00ff;
+    --accent-glow: rgba(213, 0, 249, 0.3);
+
+    --border-color: #7b1fa2;
+    --border-glow: rgba(213, 0, 249, 0.2);
+
+    --status-critical: #e91e63;
+    --status-high: #f06292;
+    --status-medium: #ba68c8;
+    --status-low: #ab47bc;
+    --status-minimal: #ce93d8;
+
+    --shadow-glow: 0 0 20px rgba(213, 0, 249, 0.15);
+}
+
+/* ============================================================================
+   Theme Application
+   ============================================================================ */
+
+body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.dashboard-header {
+    background: var(--bg-secondary);
+    border-bottom: 2px solid var(--accent-primary);
+    box-shadow: 0 4px 20px var(--accent-glow);
+}
+
+.sidebar {
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border-color);
+}
+
+.nav-item {
+    color: var(--text-secondary);
+    border-left: 3px solid transparent;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    background: var(--bg-tertiary);
+    border-left-color: var(--accent-primary);
+    color: var(--accent-primary);
+}
+
+.main-content {
+    background: var(--bg-primary);
+}
+
+.result-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-glow);
+}
+
+.result-card:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 25px var(--accent-glow);
+}
+
+.card-title {
+    color: var(--accent-primary);
+    border-bottom: 2px solid var(--accent-secondary);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    color: var(--bg-primary);
+    border: none;
+    box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px var(--accent-glow);
+}
+
+.upload-zone {
+    background: var(--bg-card);
+    border: 2px dashed var(--border-color);
+}
+
+.upload-zone:hover {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 30px var(--accent-glow);
+}
+
+/* Status Colors */
+.status-critical {
+    color: var(--status-critical);
+}
+
+.status-high {
+    color: var(--status-high);
+}
+
+.status-medium {
+    color: var(--status-medium);
+}
+
+.status-low {
+    color: var(--status-low);
+}
+
+.status-minimal {
+    color: var(--status-minimal);
+}
+
+/* Glow Effects */
+.glow {
+    text-shadow: 0 0 10px var(--accent-glow);
+}
+
+.glow-strong {
+    box-shadow: 0 0 30px var(--accent-glow);
+}
+
+/* Accent Highlights */
+.accent-text {
+    color: var(--accent-primary);
+}
+
+.accent-bg {
+    background: var(--accent-primary);
+}
+
+/* Borders with Glow */
+.border-glow {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 10px var(--border-glow);
+}
+
+/* Progress Bar */
+.progress-fill {
+    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* Stat Cards */
+.stat-card {
+    background: var(--bg-card);
+    border-left: 4px solid var(--accent-primary);
+    box-shadow: var(--shadow-glow);
+}
+
+/* Theme Transitions */
+body,
+.dashboard-header,
+.sidebar,
+.main-content,
+.result-card,
+.nav-item,
+.btn-primary,
+.upload-zone {
+    transition: all 0.3s ease;
+}

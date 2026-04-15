@@ -1,0 +1,59 @@
+/* Quantum Purple Theme - Advanced Threat Analysis */
+
+.theme-quantum-purple {
+    --bg-primary: #0f0a1a;
+    --bg-secondary: #1a0f2d;
+    --card-bg: #251739;
+    --hover-bg: #2e1f45;
+    --accent-bg: rgba(168, 85, 247, 0.1);
+
+    --text-primary: #f3e8ff;
+    --text-secondary: #d8b4fe;
+
+    --primary-color: #a855f7;
+    --secondary-color: #c084fc;
+    --accent-color: #e9d5ff;
+
+    --border-color: #581c87;
+
+    --success-color: #22c55e;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+
+    --progress-bg: #2e1065;
+    --primary-color-alpha: rgba(168, 85, 247, 0.3);
+
+    background: linear-gradient(135deg, #0f0a1a 0%, #251739 100%);
+    color: var(--text-primary);
+}
+
+.theme-quantum-purple .dashboard-header {
+    background: rgba(26, 15, 45, 0.95);
+    box-shadow: 0 2px 20px rgba(168, 85, 247, 0.2);
+}
+
+.theme-quantum-purple .sidebar {
+    background: var(--bg-secondary);
+    border-right-color: rgba(168, 85, 247, 0.2);
+}
+
+.theme-quantum-purple .status-dot {
+    background: #c084fc;
+}
+
+.theme-quantum-purple .nav-item.active {
+    background: linear-gradient(90deg, rgba(168, 85, 247, 0.15), transparent);
+}
+
+.theme-quantum-purple .intel-card {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.08), rgba(192, 132, 252, 0.05));
+    border-color: rgba(168, 85, 247, 0.3);
+}
+
+.theme-quantum-purple .upload-zone {
+    border-color: rgba(168, 85, 247, 0.3);
+}
+
+.theme-quantum-purple .btn-primary:hover {
+    box-shadow: 0 4px 20px rgba(168, 85, 247, 0.4);
+}

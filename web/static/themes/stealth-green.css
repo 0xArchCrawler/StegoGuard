@@ -1,0 +1,55 @@
+/* Stealth Green Theme - Military/Tactical Operations */
+
+.theme-stealth-green {
+    --bg-primary: #0a1a0f;
+    --bg-secondary: #0f2415;
+    --card-bg: #142d1f;
+    --hover-bg: #1a3829;
+    --accent-bg: rgba(34, 197, 94, 0.1);
+
+    --text-primary: #d1fae5;
+    --text-secondary: #86efac;
+
+    --primary-color: #22c55e;
+    --secondary-color: #4ade80;
+    --accent-color: #86efac;
+
+    --border-color: #14532d;
+
+    --success-color: #10b981;
+    --warning-color: #eab308;
+    --danger-color: #ef4444;
+
+    --progress-bg: #052e16;
+    --primary-color-alpha: rgba(34, 197, 94, 0.3);
+
+    background: linear-gradient(135deg, #0a1a0f 0%, #142d1f 100%);
+    color: var(--text-primary);
+}
+
+.theme-stealth-green .dashboard-header {
+    background: rgba(15, 36, 21, 0.95);
+    box-shadow: 0 2px 20px rgba(34, 197, 94, 0.15);
+}
+
+.theme-stealth-green .sidebar {
+    background: var(--bg-secondary);
+    border-right-color: rgba(34, 197, 94, 0.2);
+}
+
+.theme-stealth-green .status-dot {
+    background: #4ade80;
+}
+
+.theme-stealth-green .nav-item.active {
+    background: linear-gradient(90deg, rgba(34, 197, 94, 0.15), transparent);
+}
+
+.theme-stealth-green .intel-card {
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.08), rgba(74, 222, 128, 0.05));
+    border-color: rgba(34, 197, 94, 0.3);
+}
+
+.theme-stealth-green .upload-zone {
+    border-color: rgba(34, 197, 94, 0.3);
+}

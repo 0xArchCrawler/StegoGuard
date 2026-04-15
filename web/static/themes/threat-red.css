@@ -1,0 +1,55 @@
+/* Threat Red Theme - Alert/Incident Response Style */
+
+.theme-threat-red {
+    --bg-primary: #1a0a0a;
+    --bg-secondary: #2d0f0f;
+    --card-bg: #3d1515;
+    --hover-bg: #4d1a1a;
+    --accent-bg: rgba(239, 68, 68, 0.1);
+
+    --text-primary: #fee2e2;
+    --text-secondary: #fca5a5;
+
+    --primary-color: #ef4444;
+    --secondary-color: #f87171;
+    --accent-color: #fca5a5;
+
+    --border-color: #7f1d1d;
+
+    --success-color: #22c55e;
+    --warning-color: #f97316;
+    --danger-color: #dc2626;
+
+    --progress-bg: #450a0a;
+    --primary-color-alpha: rgba(239, 68, 68, 0.3);
+
+    background: linear-gradient(135deg, #1a0a0a 0%, #3d1515 100%);
+    color: var(--text-primary);
+}
+
+.theme-threat-red .dashboard-header {
+    background: rgba(29, 15, 15, 0.95);
+    box-shadow: 0 2px 20px rgba(239, 68, 68, 0.2);
+    border-bottom-color: rgba(239, 68, 68, 0.3);
+}
+
+.theme-threat-red .sidebar {
+    background: var(--bg-secondary);
+}
+
+.theme-threat-red .status-dot {
+    background: #fca5a5;
+}
+
+.theme-threat-red .nav-item.active {
+    background: linear-gradient(90deg, rgba(239, 68, 68, 0.2), transparent);
+}
+
+.theme-threat-red .intel-card {
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.08), rgba(248, 113, 113, 0.05));
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.theme-threat-red .upload-zone {
+    border-color: rgba(239, 68, 68, 0.3);
+}
