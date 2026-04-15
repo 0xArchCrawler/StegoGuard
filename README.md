@@ -159,7 +159,7 @@ StegoGuard provides **complete steganography detection** by analyzing images wit
 ```bash
 # Clone repository
 git clone https://github.com/0xArchCrawler/StegoGuard.git
-cd StegoGuard/StegoGuard_Pro
+cd StegoGuard
 
 # Install dependencies (automatic via start.sh)
 ./start.sh
@@ -581,7 +581,7 @@ This tool is provided for **legitimate security and educational purposes only**.
 ```bash
 # Clone the repository
 git clone https://github.com/0xArchCrawler/StegoGuard.git
-cd StegoGuard/StegoGuard_Pro
+cd StegoGuard
 
 # Launch (auto-installs dependencies)
 ./start.sh
